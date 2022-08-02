@@ -10,7 +10,7 @@ html, body {
   
 }
 body {
-  background: url('../projeto/imagens/fundo-madeira.jpg') no-repeat top center;
+  background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -27,7 +27,7 @@ main {
   transform: translate(-50%, -50%);
   height: 627px;
   width: 311px;
-  background: url('../projeto/imagens/frame-iphone.png');
+  background: url('../imagens/frame-iphone.png');
   background-repeat: no-repeat
 }
 iframe#tela {
@@ -58,6 +58,9 @@ section #social-midia a img:hover {
   border:2px solid rgba(255, 255, 255, 0.534);
   transform: translate(-2px, -2px);
   transition: transform 0.5s, border 1s;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
-  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699); 
+}
+
+#btn-home {
+  padding-top: 450px;
 }
